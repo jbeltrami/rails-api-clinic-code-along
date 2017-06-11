@@ -17,3 +17,34 @@
 #                password: 'abc123',
 #                password_confirmation: nil)
 # end
+
+Patient.create([
+                 { first_name: 'Jeff Horn',
+                   diagnosis: 'Too cool for school'},
+                 { first_name: 'Chris Payne',
+                   diagnosis: 'Way to excited' },
+                 { first_name: 'Brian Berzellini',
+                   diagnosis: 'Spooky Ghost' },
+                 { first_name: 'Antony Donovan',
+                   diagnosis: 'Robot Syndrome' },
+                 { first_name: 'Jason Weeks',
+                   diagnosis: 'Oddly large chest' }
+               ])
+
+Doctor.create([
+                { given_name: 'Ben',
+                  family_name: 'Adamski',
+                  specialty: 'VapeKing' },
+                { given_name: 'Rachel',
+                  family_name: 'Stevens',
+                  specialty: 'Horse Enthusiast' },
+                { given_name: 'Julie',
+                  family_name: 'Carroll',
+                  specialty: 'Getting everyone jobs' },
+                { given_name: 'Lu',
+                  family_name: 'Nathan',
+                  specialty: 'iPhone guru' },
+                { given_name: 'Naida',
+                  family_name: 'the Pollster',
+                  specialty: 'Keeping us all caffinated' }
+              ])
